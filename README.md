@@ -1,9 +1,6 @@
 # code-16thOct2021-AdityaKumar
 
+# run project
+npm run start
 
-build
-
-npm run build
-
-run project
-npm run start:watch
+open http://127.0.0.1:8080/person-with-bmi

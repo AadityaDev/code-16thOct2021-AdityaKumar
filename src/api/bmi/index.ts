@@ -1,7 +1,7 @@
 import { FastifyInstance, FastifyPluginOptions, FastifyPluginAsync } from 'fastify';
 import fp from 'fastify-plugin';
-import personsData from '../data/static/json/index.json';
-import { Person, PersonType } from '../models/index';
+import personsData from '../../data/static/json/index.json';
+import { Person, PersonType } from '../../models/index';
 
 const PersonRoute: FastifyPluginAsync = async (server: FastifyInstance, options: FastifyPluginOptions) => {
 	server.get('/person', {}, async (request, reply) => {

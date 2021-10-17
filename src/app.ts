@@ -1,5 +1,5 @@
 import fastify from 'fastify';
-import bmiRoute from './bmi/index';
+import bmiRoute from './api/bmi/index';
 
 const server = fastify();
 
